@@ -189,4 +189,4 @@ window.addEventListener('wheel', () => {
   selectNavItem(navItems[selectedNavIndex])
 })
 
-console.log('2')
+console.log('3')
