@@ -147,7 +147,7 @@ const observerCallback = (entries, observer) => {
     //화면에 보이는 영역은 존재하므로 entry.intersectionRatio > 0인것이다.
     // threshold 값을 통해 요소가 entry.isIntersecting 되는 시점은 바꿀수있다
     //댜만 화면에 보여지는 영역의비율을 의미하는 entry.intersectionRatio는 바뀌지 않는다.
-    //한다미로 화면에 보여지는 대도 불구하고 threshold: 0.3설정을통해
+    //한다미로 화면에 보여지는대도 불구하고 threshold: 0.3설정을통해
     //entry.isIntersecting가 false일수 있다는말임
     if (!entry.isIntersecting && entry.intersectionRatio > 0) {
       console.log(entry)
